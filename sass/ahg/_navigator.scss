@@ -1,0 +1,17 @@
+/* BARRA LATERAL */
+::-webkit-scrollbar-track {
+	background-color: #ebebf0 !important;
+}
+
+::-webkit-scrollbar {
+	width: 6px !important;
+	background: #ebebf0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #dad7d7 !important;
+}
+
+.notification-container {
+	overflow: hidden !important;
+}

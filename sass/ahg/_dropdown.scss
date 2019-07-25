@@ -1,0 +1,105 @@
+@import './_color-variables.scss';
+@import './_variables.scss';
+
+.dropdown-content li {
+	min-height: 38px;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+	padding: 8px 13px !important;
+	color: $form-color !important;
+	font-size: 14px !important;
+}
+
+.inputContainer {
+	position: relative;
+}
+
+.select-wrapper {
+	input.select-dropdown {
+		max-width: 400px;
+		max-height: 48px;
+		margin: 8px;
+		border: 1px solid $form-border-color;
+		border-radius: 4px;
+		box-sizing: border-box;
+		background: $white;
+		padding: 16px 16px 14px 16px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		box-shadow: 0 1px 2px rgba(40, 40, 51, 0.16);
+		color: $form-color;
+		&:hover {
+			border: 1px solid $form-border-color;
+		}
+		&:focus {
+			border: 1px solid $primary-color;
+		}
+		&::-webkit-input-placeholder {
+			/* Chrome & Safari */
+			color: transparent;
+		}
+		&:-moz-placeholder {
+			/* FF 4-18 */
+			color: transparent;
+		}
+		&::-moz-placeholder {
+			/* FF 19+ */
+			color: transparent;
+		}
+		&:-ms-input-placeholder {
+			/* IE 10+ */
+			color: transparent;
+		}
+		&:focus + .inputsLabel {
+			color: $primary-color;
+			top: 100%;
+			margin-top: -52px;
+			font-size: 12px;
+		}
+		&:valid:not(:focus) + .inputsLabel {
+			color: $form-color;
+			top: 100%;
+			margin-top: -52px;
+			font-size: 12px;
+		}
+	}
+
+	.caret {
+		fill: $form-color;
+		z-index: 9;
+	}
+
+	.dropdown-content {
+		border-radius: 4px;
+	}
+}
+
+.inputsLabel {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: $form-color;
+	position: absolute;
+	top: 22px;
+	bottom: 0;
+	left: 25px;
+	transition: 0.3s;
+}
+
+/* .inputsLabel:read-only {
+	color: #CCCCCC;
+} */
+.inputsLabelWithContent {
+	top: 100%;
+	margin-top: -52px;
+	font-size: 12px;
+}
+
+.inputsLabelWithContent:focus {
+	color: $primary-color;
+}
+
+.inputsLabelWithContent:not(:focus) {
+	color: $form-color;
+}

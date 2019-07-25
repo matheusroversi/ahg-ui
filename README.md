@@ -1,4 +1,15 @@
-# Materialize Free Material Design Admin Template
+# Materialize Ahgora Template - Material Design 
+                                        
+```
+ █████╗ ██╗  ██╗ █████╗  █████╗ ██████╗  █████╗  
+██╔══██╗██╚══██║██ ╔═══╗██║  ██║██╔══██╗██╔══██╗ 
+███████║███████║██ ████║██║  ██║██████╔╝███████║ 
+██╔══██║██╔══██║██═══██║██║  ██║██╔══██╗██╔══██║ 
+██║  ██║██║  ██║╚█████╔╝╚█████╔╝██║  ██║██║  ██║ 
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝  ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ 
+```
+
+# Inpiration
 
 Materialize - **[Free Material Design Admin Template](https://pixinvent.com/free-materialize-material-design-admin-template/)** is the excellent responsive google material design inspired admin template.
 
@@ -7,7 +18,6 @@ Materialize can be used for any type of web applications dashboard: custom admin
 We’ve written the CSS in SASS which is a great way of organizing your CSS code in a structured manner.
 
 Materialize has a minimal, sleek, clean and intuitive design which makes your next project look awesome and yet user friendly, Have look Materialize today!
-
 
 
 ## Demo

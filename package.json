@@ -1,8 +1,8 @@
 {
-  "name": "materialize-admin-boiler-plate",
-  "description": "Materialize Admin Template",
-  "url": "http://pixinvent.com/",
-  "version": "4.0.0",
+  "name": "ahg-ui",
+  "description": "Ahgora Style Guide",
+  "url": "http://ahgora.com/",
+  "version": "1.0.0",
   "private": true,
   "keywords": [
     "css",
@@ -16,18 +16,24 @@
     "material",
     "Materialize"
   ],
+  "scripts": {
+    "sass": "sass sass/style.scss css/style.css",
+    "sass:watch": "sass --watch sass/style.scss css/style.css"
+  },
   "author": {
-    "name": "Pixinvent",
-    "url": "http://pixinvent.com"
+    "name": "Ahgora",
+    "url": "http://ahgora.com"
   },
   "bugs": {
-    "url": "https://support.pixinvent.com"
+    "url": "https://ahgora.com"
   },
-  "license": "Themeforest Standard Licenses",
-  "licenses": [{
-    "type": "Themeforest Standard Licenses",
-    "url": "http://themeforest.net/licenses/standard"
-  }],
+  "license": "Standard Licenses",
+  "licenses": [
+    {
+      "type": "Standard Licenses",
+      "url": "https://ahgora.com"
+    }
+  ],
   "dependencies": {
     "hammerjs": "^2.0.8",
     "jquery": "^3.0.0 || ^2.1.4"
@@ -48,13 +54,14 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-notify": "^0.4.5",
     "grunt-postcss": "^0.8.0",
+    "grunt-prettify": "^0.4.0",
     "grunt-remove-logging": "^0.2.0",
     "grunt-rename-util": "^1.0.0",
     "grunt-sass": "^2.0.0",
     "grunt-text-replace": "^0.4.0",
-    "grunt-prettify": "^0.4.0",
     "node-archiver": "^0.3.0",
     "node-sass": "^4.5.2",
-    "phantomjs-prebuilt": "^2.1.14"
+    "phantomjs-prebuilt": "^2.1.14",
+    "sass": "^1.22.7"
   }
 }
